@@ -69,7 +69,7 @@ $ vim ~/amfoss-tasks/task-02/SOLUTION.md
 
 13. Add the task directory to the staging environment (assuming git had already been initialised in the parent folder). Commit the changes and push it to Github to make it public.
 ```
-git add ~/amfoss-tasks/task02
-git commit -m "Uploaded the solution and screenshot"
-git push
+$ git add ~/amfoss-tasks/task02
+$ git commit -m "Uploaded the solution and screenshot"
+$ git push
 ```
