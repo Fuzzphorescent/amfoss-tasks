@@ -1,0 +1,88 @@
+@font-face {
+  font-family: Neue;
+  src: url(BebasNeue-Regular.ttf);
+}
+
+body {
+  text-align: center;
+  background-color: #0b1530;
+}
+
+h1 {
+  font-family: Neue;
+  font-size: 5rem;
+  color: rgb(255, 166, 0);
+  text-shadow: 0px 0 #cc8eaa;
+
+}
+
+button.w {
+  background-color: rgb(124, 7, 72);
+}
+
+button.a {
+  background-color: rgb(165, 16, 78);
+}
+
+button.s {
+  background-color: rgb(255, 71, 58);
+}
+
+button.d {
+  background-color: rgb(255, 104, 58);
+}
+
+button.j {
+  background-color: rgb(255, 130, 47);
+}
+
+button.k {
+  background-color: rgb(255, 178, 35);
+}
+
+button.l {
+  background-color: rgb(255, 203, 34);
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  font-family: Neue;
+  outline: none;
+  border: 0px solid hsla(0, 0%, 0%, 0.342);
+  font-size: 5rem;
+  line-height: 2;
+  font-weight: 900;
+  color: #000000;
+  text-shadow: 0px 0 #000000;
+  border-radius: 10px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 30px;
+  background-color: rgb(135, 175, 40);
+  box-shadow: 10px 5px 5px rgb(0, 0, 0);
+}
+
+.drum:hover {background-color: #8aa81c}
+
+.drum:active {
+  transform: translateY(6px)
+}
