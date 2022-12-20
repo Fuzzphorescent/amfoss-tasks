@@ -1,4 +1,4 @@
-![Meet Me](https://imgur.com/a/XmtYHmK)
+# Hi, I'm Fuzzy.
 
 I like good food, bad puns, green limes, and imagining that I'm good at dancing. I study computer science and am currently enrolled in S1 of B. Tech. When I'm not busy laughing at bad jokes, I can be found complaining about phantom problems with my PC that appear only when I use it (I have a magic touch, obviously).
 
