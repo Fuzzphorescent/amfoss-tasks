@@ -13,7 +13,7 @@ fn main() {
 
     let name_selector = scraper::Selector::parse(".css-rkws3").unwrap();
     let price_selector = scraper::Selector::parse(".css-b1ilzc").unwrap();
-    let change_ss 34elector = scraper::Selector::parse(".css-1b7j986>p").unwrap();
+    let change_selector = scraper::Selector::parse(".css-1b7j986>p").unwrap();
     let volume_marketcap_selector = scraper::Selector::parse(".css-1nh9lk8").unwrap();
     let row_selector = scraper::Selector::parse(".css-1cxc880").unwrap();
 
