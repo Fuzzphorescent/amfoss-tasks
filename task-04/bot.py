@@ -1,10 +1,13 @@
+from dotenv import load_dotenv
+
 import os
 import telebot
 import requests
 
 # TODO: 1.1 Get your environment variables
-bot_id = "5775807959:AAEZQT82umL4534bNGQ1aYsxE8s_ZCO1Oj8"
-yourkey = "58c1247f"
+load_dotenv()
+bot_id = os.getenv('bot_id')
+api_key = os.getenv('api_key')
 
 bot = telebot.TeleBot(bot_id)
 
@@ -30,7 +33,7 @@ def helpProvider(message):
 
 @bot.message_handler(func=lambda message: botRunning, commands=['movie'])
 def getMovie(message):
-    url = "http://www.omdbapi.com/?apikey=" + yourkey + "&t=" + message.text[7:].replace(" ","%20")
+    url = "http://www.omdbapi.com/?apikey=" + api_key + "&t=" + message.text[7:].replace(" ","%20")
     bot.reply_to(message, 'Getting movie info...')
     # TODO: 1.2 Get movie information from the API
     data = requests.get(url).json()
