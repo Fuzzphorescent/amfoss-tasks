@@ -1,13 +1,10 @@
-from dotenv import load_dotenv
-
 import os
 import telebot
 import requests
 
 # TODO: 1.1 Get your environment variables
-load_dotenv()
-bot_id = os.getenv('bot_id')
-api_key = os.getenv('api_key')
+bot_id = os.environ['bot_id']
+api_key = os.environ['api_key']
 
 bot = telebot.TeleBot(bot_id)
 
@@ -22,7 +19,7 @@ def greet(message):
 def goodbye(message):
     global botRunning
     botRunning = False
-    bot.reply_to(message, 'Bye!\nHave a good time')
+    bot.reply_to(message, 'Bye!\nHave a good time.')
     
 
 
